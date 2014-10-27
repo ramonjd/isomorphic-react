@@ -18,9 +18,9 @@ ReactAsync = require('react-async');
 
 App = require('./react/App.jsx');
 
-app.use(express["static"](path.join(__dirname, 'public')));
-
 app.set('port', process.env.PORT || 8000);
+
+app.use(express["static"](path.join(__dirname, 'public')));
 
 app.get('*', function(req, res) {
   path = url.parse(req.url).pathname;

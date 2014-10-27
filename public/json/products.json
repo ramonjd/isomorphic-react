@@ -5,7 +5,7 @@
             "name" : "product A",
             "desc" : "product A desc",
             "price" : 12.99,
-            "id" : "a",
+            "_id" : "0",
             "img" : ""
         },
 
@@ -13,7 +13,7 @@
             "name" : "product B",
             "desc" : "product B desc",
             "price" : 10.00,
-            "id" : "b",
+            "_id" : "1",
             "img" : ""
         },
 
@@ -21,7 +21,7 @@
             "name" : "product C",
             "desc" : "product C desc",
             "price" : 3.75,
-            "id" : "c",
+            "_id" : "2",
             "img" : ""
         }
 

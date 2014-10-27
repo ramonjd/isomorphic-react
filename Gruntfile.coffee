@@ -12,7 +12,7 @@ module.exports = (grunt)->
         options:
           bare:true
         expand: true
-        flatten: true
+        flatten: false
         cwd: 'react'
         src: '**/*.coffee'
         dest: 'react'
